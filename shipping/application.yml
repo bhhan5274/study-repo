@@ -8,4 +8,7 @@ eureka:
     register-with-eureka: true
     fetch-registry: true
 oauth2:
-  jwtSigningKey: HelloWorld    
+  jwtSigningKey: HelloWorld
+logging:
+  level:
+    root: info  
